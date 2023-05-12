@@ -2,3 +2,5 @@ tensorflow==2.10
 tensorflow-gpu==2.10 
 opencv-python 
 matplotlib
+pandas
+numpy
