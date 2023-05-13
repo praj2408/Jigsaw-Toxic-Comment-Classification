@@ -1,2 +1,6 @@
-# Jigsaw-Toxic-Comment-classification
+# Ineuron Project
+
+# Jigsaw-Toxic-Comment-Classification
 ## Ongoing
+
+## Introduction
