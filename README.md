@@ -1,4 +1,4 @@
-# Ineuron Project
+# Kaggle Compitition Project
 
 # Jigsaw-Toxic-Comment-Classification
 
