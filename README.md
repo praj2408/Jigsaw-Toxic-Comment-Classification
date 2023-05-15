@@ -1,4 +1,4 @@
-# Kaggle Compitition Project
+# Kaggle Competition Project
 
 # Jigsaw-Toxic-Comment-Classification
 
