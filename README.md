@@ -1,5 +1,3 @@
-# Kaggle Competition Project
-
 # Jigsaw-Toxic-Comment-Classification
 
 ## Project Overview
