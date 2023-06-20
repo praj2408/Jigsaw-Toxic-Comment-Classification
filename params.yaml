@@ -1,0 +1,13 @@
+# Here, all the parameters configurations are added
+base:
+  project: Toxic Classification Prediction
+  random_state: 42
+  target_col: expenses
+
+data_source:
+  s3_source: data_given/train.csv/train.csv
+
+
+load_data:
+  raw_data_path: data/raw/train.csv
+
