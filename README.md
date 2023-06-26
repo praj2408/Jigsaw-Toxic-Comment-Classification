@@ -12,5 +12,8 @@ The dataset used in this project is the Toxic Comment Classification Challenge f
 
 ## Contributions
 
+
+## Contact Information
+If you have any questions or comments about this project, feel free to contact the project maintainer at [gmail](mailto:prajwalgbdr03@gmail.com)
 ## License
 MIT License
