@@ -13,7 +13,7 @@ The dataset used in this project is the Toxic Comment Classification Challenge f
 #### **RNN:**
 A baseline was created using the RNN model. An embedding layer of size 64 was used. Training the model with an Adam optimizer with a learning rate of 0.001 for 10 epochs yielded an Accuracy of 83.68% and an ROC-AUC Score of 52.03%.
 ## Contributions
-
+Contributions to this project are welcome! To contribute, please follow the standard GitHub workflow for pull requests.
 
 ## Contact Information
 If you have any questions or comments about this project, feel free to contact the project maintainer at [gmail](mailto:prajwalgbdr03@gmail.com)
