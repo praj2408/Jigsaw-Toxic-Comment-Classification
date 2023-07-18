@@ -11,3 +11,10 @@ data_source:
 load_data:
   raw_data_path: data/raw/train.csv
 
+split_data:
+  train_path: data/processed/train_toxic.csv
+  test_path: data/processed/test_toxic.csv
+  test_size: 0.2
+
+
+model_path: saved_models/rnn_base/toxicity.h5

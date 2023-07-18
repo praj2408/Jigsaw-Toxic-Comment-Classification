@@ -8,14 +8,11 @@ import pandas as pd
 
 
 def load_and_save(config_path):
+
     config = read_params(config_path)
     df = get_data(config_path)
     raw_data_path = config['load_data']['raw_data_path']
-    df.to_csv(raw_data_path)
-
-    
-
-
+    df.to_csv(raw_data_path, index=False)
 
 
 
