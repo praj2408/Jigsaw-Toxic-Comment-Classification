@@ -18,14 +18,14 @@ def preprocess_and_train(config_path):
     
     config = read_params(config_path)
 
-    df = pd.read_csv("D:/Projects/Jigsaw-Toxic-Comment-classification/data/raw/train.csv")
+    df = pd.read_csv(config['train.csv'])
 
     df.drop('id', axis=1, inplace = True)
 
     X = df['comment_text']
     y = df[df.columns[1:]].values
 
-    MAX_FEATURES = 200000 # number of words in the vocab
+    MAX_FEATURES = config['MAX_FEATURES'] # number of words in the vocab
 
     #Tokentization
     vectorizer = TextVectorization(max_tokens=MAX_FEATURES,

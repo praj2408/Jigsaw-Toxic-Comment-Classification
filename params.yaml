@@ -1,8 +1,7 @@
 # Here, all the parameters configurations are added
 base:
   project: Toxic Classification Prediction
-  random_state: 42
-  target_col: expenses
+  target_col:
 
 data_source:
   s3_source: data_given/train.csv/train.csv
@@ -15,6 +14,11 @@ split_data:
   train_path: data/processed/train_toxic.csv
   test_path: data/processed/test_toxic.csv
   test_size: 0.2
+
+
+raw_data_path: data/raw/train.csv
+
+MAX_FEATURES: 200000
 
 
 model_path: saved_models/rnn_base/toxicity.h5
